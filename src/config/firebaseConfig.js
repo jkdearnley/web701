@@ -3,7 +3,7 @@ import firebase from 'firebase'
 var firebaseConfig = {
 // Insert firebase apiKey
 
-
+  };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
