@@ -6,13 +6,6 @@
 npm install
 ```
 
-## Launch
-
-``` bash
-# Launch application - will default to "localhost:8080"
-npm run serve
-```
-
 ## Configure firebase
 ``` bash 
 ## Add own apiKeys to:
@@ -32,3 +25,10 @@ appId: "xxxxxxxxxxxxxxxxxx"
 
 ## Real time database config
 Add "products" child to database, open, import data "web701-eggcellent-export.json" file from /data folder
+
+## Launch
+
+``` bash
+# Launch application - will default to "localhost:8080"
+npm run serve
+```
