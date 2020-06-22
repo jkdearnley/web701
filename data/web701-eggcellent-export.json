@@ -1,0 +1,85 @@
+[ {
+  "description" : "Half a dozen (6) free range Chicken Eggs, Small Sized",
+  "id" : 1,
+  "price" : 4,
+  "quantity" : 6,
+  "thumbnail_url" : "https://5.imimg.com/data5/FK/CJ/VZ/SELLER-36253953/organic-desi-chicken-egg-500x500.png",
+  "title" : "Chicken Eggs (6pk Small)"
+  }, {
+  "description" : "Half a dozen (6) free range Chicken Eggs, medium size",
+  "id" : 2,
+  "price" : 4,
+  "quantity" : 4,
+  "thumbnail_url" : "https://5.imimg.com/data5/FK/CJ/VZ/SELLER-36253953/organic-desi-chicken-egg-500x500.png",
+  "title" : "Chicken Eggs (6pk Medium)"
+  }, {
+  "description" : "Half a dozen (6) large free range Chicken Eggs",
+  "id" : 3,
+  "price" : 4,
+  "quantity" : 13,
+  "thumbnail_url" : "https://5.imimg.com/data5/FK/CJ/VZ/SELLER-36253953/organic-desi-chicken-egg-500x500.png",
+  "title" : "Chicken Eggs (6pk Large)"
+  }, {
+  "description" : "1 dozen Chicken eggs, small",
+  "id" : 4,
+  "price" : 6,
+  "quantity" : 10,
+  "thumbnail_url" : "https://nestfresh.com/wp-content/themes/nestFresh/images/egg-basket.png",
+  "title" : "Chicken Eggs (12pk Small)"
+  }, {
+  "description" : "1 dozen Chicken eggs, medium size",
+  "id" : 5,
+  "price" : 6,
+  "quantity" : 7,
+  "thumbnail_url" : "https://nestfresh.com/wp-content/themes/nestFresh/images/egg-basket.png",
+  "title" : "Chicken Eggs (12pk Medium)"
+  }, {
+  "description" : "1 dozen Chicken eggs, large",
+  "id" : 6,
+  "price" : 6,
+  "quantity" : 5,
+  "thumbnail_url" : "https://nestfresh.com/wp-content/themes/nestFresh/images/egg-basket.png",
+  "title" : "Chicken Eggs (12pk Large)"
+  }, {
+  "description" : "A tray (30) of chicken eggs, small sized.",
+  "id" : 7,
+  "price" : 10,
+  "quantity" : 4,
+  "thumbnail_url" : "",
+  "title" : "Chicken Eggs (Tray Small)"
+  }, {
+  "description" : "A tray (30) of chicken eggs, medium sized.",
+  "id" : 8,
+  "price" : 10,
+  "quantity" : 7,
+  "thumbnail_url" : "",
+  "title" : "Chicken Eggs (Tray Medium)"
+  }, {
+  "description" : "A tray (30) of chicken eggs, large sized.",
+  "id" : 9,
+  "price" : 10,
+  "quantity" : 14,
+  "thumbnail_url" : "",
+  "title" : "Chicken Eggs (Tray Large)"
+  }, {
+  "description" : "4 mixed size duck eggs. Duck eggs are an excellent source of protein and are a perfect replacement egg for those with allergies to chicken eggs.",
+  "id" : 10,
+  "price" : 4,
+  "quantity" : 4,
+  "thumbnail_url" : "",
+  "title" : "Duck Eggs (4pk Mixed)"
+  }, {
+  "description" : "",
+  "id" : 10,
+  "price" : 6,
+  "quantity" : 4,
+  "thumbnail_url" : "",
+  "title" : "Duck Eggs (6pk Mixed)"
+  }, {
+  "description" : "Ostrich eggs are packed with protein and are the equivalent to roughly 2 dozen (24) eggs!!",
+  "id" : 10,
+  "price" : 50,
+  "quantity" : 4,
+  "thumbnail_url" : "https://firebasestorage.googleapis.com/v0/b/web701-eggcellent.appspot.com/o/oegg.png?alt=media&token=6d07e094-2792-4973-b5d3-ef435df5fe89",
+  "title" : "Ostrich Egg"
+  } ]
