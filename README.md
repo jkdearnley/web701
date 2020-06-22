@@ -20,7 +20,7 @@ npm run serve
 var firebaseConfig = {
 // Insert firebase apiKey
 
-apiKey: "Axxxxxxxxxxxxxxxxxx",
+apiKey: "xxxxxxxxxxxxxxxxxx",
 authDomain: "xxx.firebaseapp.com",
 databaseURL: "https://xxxx.firebaseio.com",
 projectId: "xxxxxxxxx",
