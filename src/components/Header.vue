@@ -14,7 +14,8 @@
         @click="toggleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+                  <!-- Search Bar -->
+      <input type="text" v-model="search" placeholder="Search Products">
 
 
     <div class="collapse navbar-collapse" id="navbarTop" :class="{show: isNavOpen}">
@@ -24,13 +25,13 @@
         <router-link to="/" class="nav-item">
           <a class="nav-link">Products</a>
         </router-link>
-         <router-link to="/recipes" class="nav-item">
+        <router-link to="/recipes" class="nav-item">
           <a class="nav-link">Recipes</a>
         </router-link>
-         <router-link to="/about" class="nav-item">
+        <router-link to="/about" class="nav-item">
           <a class="nav-link">About</a>
         </router-link>
-                 <router-link to="/contact" class="nav-item">
+        <router-link to="/contact" class="nav-item">
           <a class="nav-link">Contact Us</a>
         </router-link>
         <router-link to="/login" tag="li" v-if="!isLoggedIn" class="nav-item" active-class="active">
@@ -61,7 +62,8 @@ import {
 export default {
   data() {
     return {
-      isNavOpen: false
+      isNavOpen: false,
+      search:''
     }
   },
   computed: {
@@ -74,6 +76,11 @@ export default {
     },
     userEmail() {
       return this.isLoggedIn ? this.currentUser.email : ''
+    },
+    filteredItem: function(){
+      return this.item.filter((item) =>{
+        return item.title.match(this.search);
+      });
     }
   },
   methods: {
@@ -87,20 +94,16 @@ export default {
 
 
 <style scoped lange="sass">
-
 .navbar-btn a {
   color: white;
 }
-
 /* .navbar.navbar-light.bg-dark{
     background-color:blueviolet
     !important;
  } */
-
 .li-pointer {
   cursor: pointer;
 }
-
 .li-pointer:hover {
   cursor: pointer;
 }
