@@ -83,7 +83,7 @@ export default {
 .caption-full {
   padding-right: 10px;
   padding-left: 10px;
-}
+};
 
 .ratings {
   padding-right: 10px;

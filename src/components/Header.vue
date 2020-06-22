@@ -14,7 +14,7 @@
         @click="toggleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-                  <!-- Search Bar -->
+                  <!-- Search Bar TODO: FIX -->
       <input type="text" v-model="search" placeholder="Search Products">
 
 

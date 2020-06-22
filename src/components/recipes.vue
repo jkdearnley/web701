@@ -1,8 +1,8 @@
 <template>
 <div class="container">
 		<div class="col-12">
-			<h1>Recipes</h1>
-			<p>Some of our favourite egg based recipes</p>
+			<h1 class="text-center">Recipes</h1>
+			<p class="text-center">Some of our favourite egg based recipes</p>
 		</div>
 
 	<div class="row">
