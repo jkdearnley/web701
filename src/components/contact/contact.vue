@@ -48,6 +48,16 @@
         </div>
       </form>
     </div>
+
+    <p class="text-center">
+        27 Farmhouse Road,<br>
+        Nelson South,<br>
+        Nelson,<br>
+        7010<br><br>
+        Email: egg27@egg.com<br><br>
+        Ph: 03 54612345
+    </p>
+
 </div>
 
 </template>
