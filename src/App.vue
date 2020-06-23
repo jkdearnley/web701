@@ -60,9 +60,9 @@
 
   body, .sticky-footer-wrapper {
     min-height:100vh;
-    background-image: url('../public/images/bg.png');
-    background-position: top;
-    background-size: cover;
+    background-image: url('../public/images/bg2.jpg');
+    background-position: center;
+    background-size:cover;
 
   }
   .flex-fill {

@@ -2,13 +2,13 @@
 	<!--About Start-->
 	<div class="container card">
 		<div class="col-12">
-			<h1>A Little About Us!</h1>
+			<h1 class="text-center">A Little About Us!</h1>
 			<p></p>
 		</div>
 
 	<div class="row">
 		<div class="col-12">
-			<h2 class="header">Meet the Team</h2>
+			<h2 class="text-center">Meet the Team</h2>
 		</div>
 	</div>
 	<div class="row">
