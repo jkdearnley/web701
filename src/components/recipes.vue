@@ -2,7 +2,9 @@
 <div class="container card">
 		<div class="col-12">
 			<h1 class="text-center">Recipes</h1>
-			<p class="text-center">Some of our favourite recipes and methods for cooking eggs.</p>
+			<p class="text-left">Eggs are amazing, whether they're the main part of a dish, or just a side. 
+                We here at EGGcellent wanted to share our favourite cooking methods and recipes for the common ways 
+                to cook eggs and we hope they help you as much as they've helped us!</p>
 		</div>
 
 
