@@ -33,7 +33,7 @@ new Vue({
   router,
   store,
   render: h => h(App)
-})
+});
 
 function authStatusChange(loggedIn, user) {
 	if (store) {

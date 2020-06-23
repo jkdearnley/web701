@@ -22,14 +22,22 @@
       
     </footer>
 </div>
-
 </template>
+
+
 
 <script>
   import { mapActions } from 'vuex';
   import Header from './components/Header.vue';
   import MessageComponent from './components/common/MessageComponent.vue';
   export default {
+    //   data() {
+    //     return {
+    //       cssProps: {
+    //         backgroundImage: `url(${require('../public/images/bg.jpg')})`
+    //     }
+    //   }
+    // },
     components: {
       appHeader: Header,
       MessageComponent
@@ -51,9 +59,12 @@
   }
 
   body, .sticky-footer-wrapper {
-     min-height:100vh;
-  }
+    min-height:100vh;
+    background-image: url('../public/images/bg.png');
+    background-position: top;
+    background-size: cover;
 
+  }
   .flex-fill {
      flex:1 1 auto;
   }
@@ -73,5 +84,5 @@
     footer {
       height: 50px;
     }
-  }
+  };
 </style>

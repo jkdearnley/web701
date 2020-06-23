@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="card row">
     <div class="col-md-6 offset-md-3 col-sm-12 offset-sm-1">
       <form id="login-form" role="form" style="display: block;" @submit.prevent="onSubmit">
         <h3 class="text-center">Login</h3>

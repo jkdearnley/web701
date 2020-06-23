@@ -1,6 +1,6 @@
 <template>
 	<!--About Start-->
-	<div class="container">
+	<div class="container card">
 		<div class="col-12">
 			<h1>A Little About Us!</h1>
 			<p></p>

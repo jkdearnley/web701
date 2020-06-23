@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <router-link to="/" class="navbar-brand mr-auto"><img src="../../public/images/logo2.png"></router-link>
+    <router-link to="/" class="navbar-brand mr-auto"><img src="../../public/images/logo.png"></router-link>
     <button
         class="navbar-toggler"
         type="button"
@@ -14,14 +14,15 @@
         @click="toggleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-                  <!-- Search Bar TODO: FIX -->
-      <input type="text" v-model="search" placeholder="Search Products">
+
 
 
     <div class="collapse navbar-collapse" id="navbarTop" :class="{show: isNavOpen}">
       <ul class="navbar-nav mr-auto">
       </ul>
       <ul class="nav navbar-nav">
+                          <!-- Search Bar TODO: FIX -->
+      <input type="text" v-model="search" placeholder="Search Products">
         <router-link to="/" class="nav-item">
           <a class="nav-link">Products</a>
         </router-link>
@@ -97,7 +98,7 @@ export default {
 .navbar-btn a {
   color: white;
 }
-/* .navbar.navbar-light.bg-dark{
+/* .navbar.navbar-light.bg-light{
     background-color:blueviolet
     !important;
  } */

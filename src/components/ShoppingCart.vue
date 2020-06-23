@@ -1,5 +1,5 @@
 <template>
-  <div class="container table-responsive">
+  <div class="container card table-responsive">
     <table id="cart" class="table table-hover table-sm">
       <thead>
         <tr>
