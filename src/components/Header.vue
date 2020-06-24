@@ -15,8 +15,6 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-
-
     <div class="collapse navbar-collapse" id="navbarTop" :class="{show: isNavOpen}">
       <ul class="navbar-nav mr-auto">
       </ul>
